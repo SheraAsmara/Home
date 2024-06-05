@@ -1,0 +1,330 @@
+@media  screen and (min-width: 321px) and (max-width:960px) {
+	* {
+		margin: 0 auto;
+		padding: 10px;
+		word-break: keep-all;
+		box-sizing: border-box;
+	}
+
+	html {
+		scroll-behavior: smooth;
+	}
+
+	header {
+		text-align: center;
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		background: transparent;
+		width: 100%;
+		z-index: 999;
+		color: #7c5d01;
+	}
+
+	nav {
+		text-align: center;
+		position: absolute;
+		top: 5vh;
+		left: 0px;
+		right: 0;
+		background: transparent;
+		width: 100%;
+		z-index: 999;
+		color: #7c5d01;
+	}
+
+	ul {
+		display: flex;
+		flex-direction: row;
+	}
+
+	li {
+		list-style: none;
+		font-weight: bold;
+		background-color: #c4af66;
+		height: 40px;
+		width: 40px;
+		border-radius: 100px;
+	}
+
+	body {
+	    background: #ffffe5;
+	    display: flex;
+	    justify-content: center;
+	    align-items: center;
+	    min-height: 100vh;
+	    margin: 0;
+	    padding-top: 10vh;
+	}
+
+	.container {
+	    display: flex;
+	    justify-content: center;
+	    align-items: center;
+	    flex-direction: column;
+	}
+
+	section {
+	    max-width: 520px;
+	    margin: 0 auto;
+	    padding: 20px;
+	    box-sizing: border-box;
+	}
+
+	article {
+	    text-align: center;
+	}
+
+	a {
+		text-decoration: none;
+		color: #7c5d01;
+	}
+
+	img {
+	    max-width: 100%;
+	}
+
+	.textbox {
+	    color: #7c5d01;
+	}
+
+	.textbox h2 {
+	    font-size: 42px;
+	}
+
+	.textbox p {
+	    font-size: 20px;
+	    line-height: 40px;
+	    font-weight: bold;
+	    max-width: 100%;
+	    margin: 0;
+	}
+
+	footer {
+		position: fixed;
+		bottom: 0;
+		right: 0;
+		background-color: #c4af66;
+		color: ghostwhite;
+		padding: 7px;
+		width: 100px;
+		height: 50px;
+	}
+
+	.footer {
+		font-size: 12px;
+		font-weight: bold;
+		text-align: center;
+	}
+
+
+
+
+
+
+	#parrot {
+		box-shadow: 0px 0px 0px 7px #4eafc5;
+	}
+
+	#wipes {
+		box-shadow: 0px 0px 0px 7px #6ab2cc;
+	}
+
+	#beer {
+		box-shadow: 0px 0px 0px 7px #9b2755;
+	}
+
+	#fries {
+		box-shadow: 0px 0px 0px 7px #e65353;
+	}
+
+	#garlic {
+		box-shadow: 0px 0px 0px 7px #e8b10d;
+	}
+
+	#bands {
+		box-shadow: 0px 0px 0px 7px #4eafc5;
+	}
+
+	#candy {
+		box-shadow: 0px 0px 0px 7px #000000;
+	}
+
+	#aquarium {
+		box-shadow: 0px 0px 0px 7px #271704;
+	}
+
+}
+
+@media  screen and (min-width: 720px) and (max-width:1920px)  {
+	* {
+		margin: 0 auto;
+		padding: 10px;
+		word-break: keep-all;
+		box-sizing: border-box;
+	}
+
+	html {
+		scroll-behavior: smooth;
+	}
+
+	header {
+		text-align: left;
+		position: fixed;
+		top: 0;
+		left: 0;
+		right: 0;
+		background: transparent;
+		width: 100%;
+		z-index: 999;
+		color: #7c5d01;
+	}
+
+	nav {
+		text-align: center;
+		position: fixed;
+		top: 0;
+		left: 60px;
+		right: 0;
+		background: transparent;
+		width: 100%;
+		x-index: 999;
+		color: #7c5d01;
+	}
+
+	ul {
+		display: flex;
+		flex-direction: row;
+	}
+
+	li {
+		list-style: none;
+		font-weight: bold;
+		background-color: #c4af66;
+		height: 40px;
+		width: 40px;
+		border-radius: 100px;
+	}
+
+	body {
+		background: #ffffe5;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		min-height: 80vh;
+		margin: 0;
+		padding-top: 9vh;
+		overflow-x: scroll;
+		overflow-y: scroll;
+	}
+
+	.container {
+		display: flex;
+		flex-direction: row;
+		width: 100vw;
+	}
+
+	#alchohol {
+		max-width: 90%;
+	}
+
+	#gen {
+		max-width: 100%;
+	}
+
+	section {
+		min-width: 400px;
+		margin: 0 5px;
+		padding: 10px;
+		box-sizing: border-box;
+		overflow: auto;
+	}
+
+	article {
+		text-align: center;
+		display: flex;
+		flex-direction: column;
+		overflow-x: auto;
+	}
+
+	a {
+		text-decoration: none;
+		color: #7c5d01;
+	}
+
+	a:hover {
+		color: ghostwhite;
+	}
+
+	img {
+		max-width: 500px;
+		max-height: 500px;
+	}
+
+	.textbox {
+		color: #7c5d01;
+	}
+
+	.textbox h2 {
+		font-size: 42px;
+	}
+
+	.textbox p {
+		font-size: 20px;
+		line-height: 38px;
+		font-weight: bold;
+		max-width: 100%;
+		margin: 0;
+	}
+
+	footer {
+		position: fixed;
+		bottom: 0;
+		right: 0;
+		background-color: #c4af66;
+		padding: 10px;
+	}
+
+	.footer {
+		font-size: 22px;
+		font-weight: bold;
+		text-align: center;
+	}
+
+
+
+	#parrot {
+		box-shadow: 0px 0px 0px 7px #4eafc5;
+	}
+
+	#wipes {
+		box-shadow: 0px 0px 0px 7px #6ab2cc;
+	}
+
+	#beer {
+		box-shadow: 0px 0px 0px 7px #9b2755;
+	}
+
+	#fries {
+		box-shadow: 0px 0px 0px 7px #e65353;
+	}
+
+	#garlic {
+		box-shadow: 0px 0px 0px 7px #e8b10d;
+	}
+
+	#bands {
+		box-shadow: 0px 0px 0px 7px #4eafc5;
+	}
+
+	#candy {
+		box-shadow: 0px 0px 0px 7px #000000;
+	}
+
+	#aquarium {
+		box-shadow: 0px 0px 0px 7px #271704;
+	}
+
+}
